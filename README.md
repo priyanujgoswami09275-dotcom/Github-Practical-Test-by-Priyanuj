@@ -1,1 +1,10 @@
 # Github-Practical-Test-by-Priyanuj
+# Portfolio Website
+
+| Full Name | URN Number | Semester |
+|-----------|------------|----------|
+| Priyanuj Goswami | E25BO31513 | 3 |
+
+| Section | Subject |
+|---------|---------|
+| YOUR SECTION | YOUR SUBJECT |
