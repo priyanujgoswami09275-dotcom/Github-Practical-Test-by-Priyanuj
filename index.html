@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Priyanuj Goswami | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navigation bar -->
+  <header>
+    <h2>Priyanuj Goswami</h2>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#education">Education</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+      <button id="themeBtn">Dark mode</button>
+    </nav>
+  </header>
+
+  <!-- Home section -->
+  <section id="home">
+    <h1>Hi, I'm Priyanuj Goswami</h1>
+    <p>Computer Science Student | Aspiring ML Engineer</p>
+    <p>Semester 3 | URN: E25BO31513</p>
+  </section>
+
+  <!-- About section -->
+  <section id="about">
+    <h2>About Me</h2>
+    <p>
+      I am a B.Tech Computer Science student in Pune, India.
+      I want to become a machine learning engineer and I am
+      learning Python, PyTorch and data science.
+    </p>
+  </section>
+
+  <!-- Skills section -->
+  <section id="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li>Python</li>
+      <li>PyTorch</li>
+      <li>Machine Learning</li>
+      <li>Data Science</li>
+      <li>HTML, CSS, JavaScript</li>
+    </ul>
+  </section>
+
+  <!-- Education section -->
+  <section id="education">
+    <h2>Education</h2>
+    <p><b>B.Tech in Computer Science</b></p>
+    <p>Ajeenkya D Y Patil University (2025 - 2029)</p>
+    <p><b>Core Member, AI/ML Club</b></p>
+    <p>Alta School of Technology (Aug 2026 - Present)</p>
+  </section>
+
+  <!-- Projects section -->
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="card">
+      <h3>AI Agent Orchestrate</h3>
+      <p>Build an AI agent that audits whether a user's personal data was actually deleted.
+
+A deletion workflow may report Complete while data still exists in databases, logs, support attachments, exports, search indexes, archives, or backups. Sync and restore processes may also bring deleted data back.
+
+For each request, the agent must first determine whether deletion was actually requested. It then returns COMPLETE, INCOMPLETE, or NOT_APPLICABLE, reports any remaining data or recreation risk, and produces the ordered remediation and verification steps required to finish an authorized deletion safely..</p>
+    </div>
+    <div class="card">
+      <h3>Fasal Mitra</h3>
+      <p>FasalMitra is an AI-powered multi-agent platform that supports farmers from soil preparation to market selling.</p>
+    </div>
+  </section>
+
+  <!-- Contact section -->
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email: priyanujgoswami09275@gmail.com</p>
+    <p>
+      <a href="https://www.linkedin.com/in/priyanujgoswami-b5a9072bb" target="_blank">LinkedIn</a>
+    </p>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; <span id="year"></span> Priyanuj Goswami</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
