@@ -6,4 +6,4 @@
 
 | Section | Subject |
 |---------|---------|
-| B | Git and Gitlab |
+| A | Git and Gitlab |
